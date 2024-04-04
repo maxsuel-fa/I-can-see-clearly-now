@@ -15,7 +15,7 @@ In this context, the main objectives of the project were to understand the impac
 
 In adverse environmental conditions, images captured by the camera may suffer distortions due to different optical phenomena. Considering environment perception on rainy days, raindrops can adhere to the camera lens or vehicle windshield, behaving like secondary lenses and forming an optical system that can distort the captured images. The presence of fog in the atmosphere, in turn, forms a scattering medium that disperses light coming from or reflected by objects in the scene, which can result in reduced contrast and sharpness of the captured image and even in the complete obstruction of objects or the environment. Recently, deep learning-based approaches have been employed for restoring images captured in rainy or foggy environments.
 
-The chosen method to address both tasks in this project is a generative adversarial network where the generator network consists of 4 down-convolution layers, 9 residual blocks, and 4 up-convolution layers, as shown in Figure 1.
+The chosen method to address both tasks in this project was proposed in [I Can See Clearly Now](https://arxiv.org/abs/1901.00893). It is a generative adversarial network where the generator network consists of 4 down-convolution layers, 9 residual blocks, and 4 up-convolution layers, as shown in Figure 1.
 
 <figure>
     <figcaption> <b>Figure 1:</b> Architecture of the chosen method's generator network</figcaption>
